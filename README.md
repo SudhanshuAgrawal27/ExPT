@@ -1,11 +1,14 @@
-## <b>Webpage template</b>
+## <b>ExPT: Synthetic Pretraining for Few-Shot Experimental Design </b>
 
-This webpage template was made for a [colorful ECCV paper](http://richzhang.github.io/colorization/). See how the webpage looks [here](https://richzhang.github.io/webpage-template).
+<b> [Tung Nguyen](https://tung-nd.github.io/), [Sudhanshu Agrawal](https://www.linkedin.com/in/sudhanshu-agrawal/), [Aditya Grover](https://aditya-grover.github.io/) </b>
 
-To use this template, clone the repo:
+<b> To appear in NeurIPS 2023 </b>
 
-```
-git clone https://github.com/richzhang/webpage-template.git
-```
+<b> ArXiv </b> : [https://arxiv.org/abs/2310.19961](https://arxiv.org/abs/2310.19961)
 
-Copy the contents into a `gh-pages` branch of a GitHub repo. That will automatically make a webpage under address [GITHUB_USERNAME.github.io/REPO_NAME](GITHUB_USERNAME.github.io/REPO_NAME).
+<b> GitHub </b> : [https://github.com/tung-nd/ExPT](https://github.com/tung-nd/ExPT)
+
+<img src="./resources/approach.png" width=70%, height=70%/>
+<!-- ![expt](./resources/approach.png)
+ -->
+
