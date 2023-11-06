@@ -162,59 +162,42 @@
 				</tr>
 			</table>
 			<br>
-			<table align=center width=450px>
+			<table align=center width=500px>
+
 				<tr>
-					<td align=center width=100px>
+					<td align=center width=120px>
 						<center>
 							<span style="font-size:26px"><a href='https://arxiv.org/abs/2310.19961'>[Paper]</a></span>
 						</center>
 					</td>
-					<td align=center width=100px>
+					<td align=center width=120px>
 						<center>
 							<span style="font-size:26px"><a href='https://github.com/tung-nd/ExPT'>[GitHub]</a></span><br>
 						</center>
 					</td>
-					<td align=center width=100px>
+					<td align=center width=120px>
 						<center>
-							<span style="font-size:26px"><a href='https://github.com/tung-nd/ExPT'>[FILL Blogpost]</a></span><br>
+							<span style="font-size:26px"><a href='https://github.com/tung-nd/ExPT'>[FILL Medium Blogpost]</a></span><br>
 						</center>
 					</td>
 				</tr>
 			</table>
 		</table>
 	</center>
-	<br>
 	<center>
 		<span style="font-size:26px"> <i>In NeurIPS 2023</i></span>
+	</center>
+	<center>
+		<br>
 		<table align=center width=1000px>
 			<tr>
 				<td width=400px>
 					<center>
-						<img class="round" style="width:300px; height:300px" src="./resources/ant.gif"/>
-					</center>
-				</td>
-				<td width=400px>
-					<center>
-						<img class="round" style="width:300px; height:300px" src="./resources/ant_vy.gif"/>
-					</center>
-				</td>
-				<td width=400px>
-					<center>
-						<img class="round" style="width:300px; height:300px" src="./resources/ant_energy.gif"/>
+						<img class="round" style="width:600px; height:450px" src="./resources/expt-cover.png"/>
 					</center>
 				</td>
 			</tr>
-			<br>
 		</table>
-	<table>
-		<tr> 
-			<td style="width:1000px; font-size:20px">
-				<center>
-				A single pretrained ExPT foundation model can be used in a few-shot setting to generate designs for multiple independent objectives: for example, robots optimizing for horizontal speed, vertical speed while maintaining horizontal motion, and energy used while travelling.
-				</center>
-			</td>
-		</tr>
-	</table>
 
 	</center>
 
@@ -257,6 +240,7 @@
 				</center>
 			</td>
 		</tr>
+		<br>
 		<tr> 
 			<td width=300px>
 				ExPT follows a pretraining-adaptation approach in order to create and adapt a a foundation model for experimental design. In the pretraining phase, the model is given a large unlabeled dataset. The domain of the dataset can range from robot designs to DNA sequences. This unlabeled dataset is then used to create a synthetic dataset using a novel approach that uses Gaussian Processes to scale up the pretraining. During adaptation, the model is given a few real-world designs and their corresponding values and is able to produce new and high quality designs. 
@@ -286,8 +270,39 @@
 
 	<hr> 
 
+	<center><h1>Empirical Highlights</h1></center>
+	<table align=center width=1000px>
+		<tr>
+			<td width=400px>
+				<center>
+					<img class="round" style="width:300px; height:300px" src="./resources/ant.gif"/>
+				</center>
+			</td>
+			<td width=400px>
+				<center>
+					<img class="round" style="width:300px; height:300px" src="./resources/ant_vy.gif"/>
+				</center>
+			</td>
+			<td width=400px>
+				<center>
+					<img class="round" style="width:300px; height:300px" src="./resources/ant_energy.gif"/>
+				</center>
+			</td>
+		</tr>
+		<br>
+	</table>
+
+	<table align=center>
+		<tr> 
+			<td style="width:1000px; font-size:20px">
+				<center>
+				A single pretrained ExPT foundation model can be used in a few-shot setting to generate designs for multiple independent objectives: for example, robots optimizing for horizontal speed, vertical speed while maintaining horizontal motion, and energy used while travelling.
+				</center>
+			</td>
+		</tr>
+	</table>
+	<br>
 	<table align=center width=1000px style="font-size:20px">
-		<center><h1>Performance</h1></center>
 		
 		<tr> 
 			<td style="width:800px">
@@ -320,6 +335,9 @@
 		</tr>
 	</table>
 	<br> 
+
+
+	Further details about these experiments as well as other experimental setups, such as synthetic tasks, multi-objective tasks, and ablation studies comparing forward and inverse modeling can be found in Section 3 of the paper.  
 
 	<hr> 
 
