@@ -1,8 +1,6 @@
-@misc{nguyen2023expt,
-      title={ExPT: Synthetic Pretraining for Few-Shot Experimental Design}, 
-      author={Tung Nguyen and Sudhanshu Agrawal and Aditya Grover},
-      year={2023},
-      eprint={2310.19961},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@article{nguyen2023expt,
+  title={ExPT: Synthetic Pretraining for Few-Shot Experimental Design},
+  author={Nguyen, Tung and Agrawal, Sudhanshu and Grover, Aditya},
+  journal={arXiv preprint arXiv:2310.19961},
+  year={2023}
 }
